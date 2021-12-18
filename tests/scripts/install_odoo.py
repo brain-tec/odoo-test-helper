@@ -56,6 +56,7 @@ def install_odoo():
 def main():
     if not odoo_installed():
         install_odoo()
+    return sys.exit(0)
 
 
 if __name__ == "__main__":
